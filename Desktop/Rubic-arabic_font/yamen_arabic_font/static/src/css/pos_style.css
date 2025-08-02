@@ -1,0 +1,153 @@
+/*=============================
+=           ROOT             =
+=============================*/
+
+:root {
+  --arabic-font: 'Rubik', 'Noto Sans Arabic', sans-serif;
+  --background-topheader--ooo: #7f82ac;
+  --background-topheader: #875A7B;
+}
+
+/*=============================
+=         الخط العام         =
+=============================*/
+
+body, html, .pos, .pos * {
+  font-family: var(--arabic-font) !important;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+html {
+  font-family: 'Rubik', sans-serif;
+}
+
+.pos {
+  font-family: 'Rubik', sans-serif;
+}
+
+.pos .modal-dialog .popup,
+.ui-dialog,
+.modal-dialog,
+.pos textarea,
+.pos button,
+.pos a.button {
+  font-family: 'Rubik', sans-serif;
+}
+
+/*=============================
+=     واجهة POS - عامة      =
+=============================*/
+
+.dvh-100 {
+  height: 100vh !important;
+  height: 100dvh !important;
+  font-family: var(--arabic-font) !important;
+}
+
+.pos .loader {
+  background-color: var(--background-topheader);
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+}
+
+.pos .searchbox input {
+  width: 300px !important;
+}
+
+.search-clear.right {
+  left: 345px;
+}
+
+/*=============================
+=        الترويسة           =
+=============================*/
+
+.pos .pos-topheader {
+  background: var(--background-topheader);
+  color: white;
+}
+
+.pos .pos-rightheader > * {
+  border-right: 1px solid var(--background-topheader);
+}
+
+.pos .pos-rightheader .header-button:last-child {
+  border-left: 1px solid var(--background-topheader);
+}
+
+/*=============================
+=          المنتج            =
+=============================*/
+
+.pos .product {
+  font-size: 14px;
+  line-height: 145px;
+  width: 130px;
+  height: 160px;
+  border-radius: 14px 14px 30px 0px;
+  border: 1px solid var(--background-topheader);
+  border-bottom-width: 5px;
+}
+
+.pos .product .product-name {
+  text-align: center;
+  border-radius: 0px 0px 30px 0px;
+  bottom: auto;
+  line-height: 20px;
+  height: 50px;
+  top: 112px;
+  padding: 0px;
+  border: 0px solid #fcb62c;
+  border-bottom-width: 5px;
+}
+
+.pos .product .product-img {
+  width: 100%;
+}
+
+.pos .product .price-tag {
+  border-radius: 0px 10px 0px 0px;
+  background: var(--background-topheader);
+  border: 0px solid #fdb52b;
+  border-bottom-width: 3px;
+}
+
+.pos .quantity-count {
+  border-radius: 10px 0px 0px 0px;
+  border: 0px solid #fdb52b;
+  border-bottom-width: 3px;
+}
+
+/*=============================
+=     العناصر النصية        =
+=============================*/
+
+.overflow-y-auto .product span,
+.input-group .form-control input[type="text"],
+.leftpane .pads .control-buttons,
+.category-list .category-button span,
+.orderline .flex-column .d-flex .flex-grow-1 span,
+.leftpane .orderline .price-per-unit,
+.leftpane .order-summary,
+.subpads .numpad .active,
+.subpads .numpad .numpad-price,
+.actionpad .validation .pay-order-button,
+.modal-body .control-buttons-modal .btn-secondary:nth-child(3) {
+  font-family: var(--arabic-font) !important;
+}
+
+.category-list .category-button span {
+  text-align: right !important;
+  font-size: 12px !important;
+}
+
+/*=============================
+=         إضافات عامة        =
+=============================*/
+
+.element.style {
+  background-color: var(--background-topheader);
+}
