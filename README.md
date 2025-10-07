@@ -1,49 +1,36 @@
+Rubic Arabic Font is a simple and elegant  Odoo module designed to enhance the typography experience across the Odoo backend and POS interface.
+It integrates Noto Sans Arabic and Rubik, two modern open-source fonts from Google Fonts, to deliver a cleaner, more professional, and visually appealing Arabic text presentation.
 
----
+🚀 Features
 
-## 📝 **وصف موديول Yamen Arabic Font**
+Improved Arabic font rendering in the Odoo backend interface.
 
-### 🎯 ما هو هذا الموديول؟
+Professional and readable typography in the Point of Sale (POS) system.
 
-موديول **Yamen Arabic Font** هو إضافة بسيطة وأنيقة لتحسين شكل الخطوط داخل نظام **Odoo** (في الواجهة الخلفية وشاشة نقاط البيع POS) باستخدام خطي **Noto Sans Arabic** و **Rubik**، لتقديم تجربة قراءة أكثر وضوحًا وجاذبية.
+Seamless integration with Google Fonts.
 
----
+Offers a clear, modern, and elegant Arabic reading experience across all screens.
 
-### 🚀 المزايا:
+🛠️ Installation Steps
 
-* تحسين العرض البصري للواجهة الخلفية لـ Odoo.
-* تنسيق احترافي لنصوص نقاط البيع (POS).
-* دمج سلس لخطوط Google Fonts المفتوحة المصدر.
-* تجربة قراءة واضحة وسلسة باللغة العربية.
+Copy the module folder to your custom_addons directory.
 
----
+Restart your Odoo instance or Docker container.
 
-### 🛠️ خطوات التركيب:
+Activate Developer Mode.
 
-1. انسخ الموديول إلى مجلد `custom_addons`.
-2. أعد تشغيل Odoo أو الكونتينر (Docker).
-3. فعّل وضع المطور (Developer Mode).
-4. ابحث عن الموديول باسم **Yamen Arabic Font** وثبّته.
-5. اضغط `Ctrl + Shift + R` لتحديث الكاش وتفعيل الخط.
+Search for Yamen Arabic Font in the Apps menu and install it.
 
----
+Press Ctrl + Shift + R to refresh the cache and apply the new fonts.
 
-### 📷 عرض مرئي:
+📷 Visual Preview
 
-الصفحة تعرض مقارنة "قبل وبعد" توضح الفرق الكبير في وضوح النصوص بعد تطبيق الخط الجديد في:
+The module showcases a before & after comparison highlighting the enhanced text clarity and smoothness across:
 
-* الواجهة العامة.
-* التقارير.
-* شاشة المنتجات.
-* شاشات POS.
+Backend interface
 
----
+Reports
 
-### 📩 تواصل:
+Product pages
 
-للدعم أو التواصل:
-**📧 [Husam.ragab@icloud.com](mailto:Husam.ragab@icloud.com)**
-
----
-
-هل تحب أجهزه لك كملف `README.md` وتخليه يظهر تلقائيًا على GitHub أو متجر التطبيقات؟
+POS screens
